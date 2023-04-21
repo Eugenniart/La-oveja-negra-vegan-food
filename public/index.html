@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Oveja Negra </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="menu container">
+            <img class="logo-1" src="images/Logo.png" alt="">
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar" >
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="images/Logo.png" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#horario">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/laovejanegra_veganfood/?hl=es">
+                            <div class="social" >
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://wa.me/+59897319408">
+                            <div class="social" >
+                                <img src="images/s2.png" alt="" width="20">
+                            </div>
+                        </a>
+                        <a href="https://m.facebook.com/laovejanegraveganuy">
+                            <div class="social" >
+                                <img src="images/s1.svg" alt="" width="14">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="header-content container" >
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide" >
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Capuchino & Medialuna</h1>
+                                <p>Podes elegir tu capuchino con cacao o canela, acompañado de una medialuna rellena con nuestro jamón especial y queso de caju</p>
+                                <div class="botones">
+                                    <a href="#ubicacion" class="btn-1">Ubicación</a>
+                                    <a href="#productos" class="btn-1">Más productos</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" >
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Pizzas</h1>
+                                <p>Rquisimas pizzetas con muzzarella, contamos con variedades : Margarita $290, de 2 sabores $350, de 3 sabores $420, Fermentada $450. Combinalas como más te guste.</p>
+                                <div class="botones">
+                                    <a href="#ubicacion" class="btn-1">Ubicación</a>
+                                    <a href="#productos" class="btn-1">Más productos</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" >
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Merienda</h1>
+                                <p>Merienda para compartir con quien mas quieras. Veni a probar 1 café doble espresso y 1 espresso común acomapañado de un delicioso postre oreo.</p>
+                                <div class="botones">
+                                    <a href="#ubicacion" class="btn-1">Ubicación</a>
+                                    <a href="#productos" class="btn-1">Más productos</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="products" id="productos">
+        <div class="tabs container">
+            
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1" id="dulces" >Dulce</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2"  id="swiper1">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/Dulce/dulce1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Plantillas</h4>
+                                    <p>250grms de 9-11 unidades</p>
+                                    <span class="price">$180</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Recomendado</h4>
+                                    <img src="images/Dulce/dulce2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Masini</h4>
+                                    <p>Sabor clasico, frutilla o chocolate.</p>
+                                    <span class="price">$80.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/Dulce/dulce4.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Budin</h4>
+                                    <p>Budín con chips de chocolate y relleno de dulce coco, 400grs.</p>
+                                    <span class="price">$170</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/Dulce/dulce3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Bizcocho relleno</h4>
+                                    <p>Nueva creación en sus 3 variedades, relleno de Nutella, Crema Pastelera, Dulce de leche a base de leche de avena.</p>
+                                    <span class="price">$65 c/u.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2" id="salados">Salado</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2"  id="swiper2">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Recomendado</h4>
+                                    <img src="images/Salado/salado1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pionono</h4>
+                                    <p>De no pollo o no atún, jamón, queso, lechuga tomate y huevo revuelto a base de tofú con azúcar quemada</p>
+                                    <span class="price">$500</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/Salado/salado2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Mini borchetts</h4>
+                                    <p>15 unidades</p>
+                                    <span class="price">$450</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Recomendado</h4>
+                                    <img src="images/Salado/salado3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Mini chivitos</h4>
+                                    <p>Seitan, mayonesa, lechuga, tomate, queso y jamón ahumado. <br> 15 unidades.</p>
+                                    <span class="price">$600</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3" id="variedad">Variedad</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2"  id="swiper3">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Super recomendado</h4>
+                                    <img src="images/variedad/variedad4.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Jamón</h4>
+                                    <p>Calidad Premium, a base de arroz, fécula de mandioca y maicena, saborizante ahumado. </p>
+                                    <span class="price">$80.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/variedad/variedad1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Medialunas</h4>
+                                    <p>Se entregan sin relleno y congeladas. <br> 6 unidades.</p>
+                                    <span class="price">Comúnes $210  Medianas $300  Grandes $480</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/variedad/variedad2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Queso</h4>
+                                    <p>Deshidratado fermentado en conserva a base de castañas de caju</p>
+                                    <span class="price">150cc a $250 <br> 330cc a $350</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/variedad/variedad3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Bolis caju</h4>
+                                    <p>Ideal para picadas como queso tabla, revestido en pimienta, sesamo y cardamomo.</p>
+                                    <span class="price">150cc a $300</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab4" checked="checked" class="tabInput" value="4">
+            <label for="tab4" id="tortas">Tortas & Postres</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2"  id="swiper4">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Super recomendado</h4>
+                                    <img src="images/Tortas y postres/torta1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Torta mouse</h4>
+                                    <p>Mouse de maracuya y mango </p>
+                                    <span class="price">$80.000</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/Tortas y postres/torta2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Mini shots</h4>
+                                    <p>Combina hasta 2 sabores, frutilla, vainilla, selva negra, cheescake, oreo, crema mocka, mouse (a elección). <br>
+                                        12 unidades.
+            
+                                    </p>
+                                    <span class="price">$960</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/Tortas y postres/torta3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Cheescake</h4>
+                                    <p>Cheescake con quesito fermentado puede ser de frutos del bosque o maracuya, es de 25cm.</p>
+                                    <span class="price">$1200</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img" >
+                                    <h4>Nuevo</h4>
+                                    <img src="images/Tortas y postres/torta4.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Postre chocolate</h4>
+                                    <p>Chispas, colchón de chocolate rallado, relleno de mouse de chocolate y veteado con chocolate (salsa casera). <br> 10 a 12 porciones </p>
+                                    <span class="price">$900</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="info container" id="nosotros">
+
+        <div class="info-img">
+            <img src="images/nosotros.png" alt="">
+        </div>
+        <div class="info-txt">
+            <h2>Nosotros</h2>
+            <p>Somos una cafeteria 100% vegana, que brinda un servicio de comida rica, sana y totalmente libre de crueldad animal. <br>
+                Fuimos los primeros en realizar jamón ahumado en Uruguay.
+            </p>
+            <a href="https://www.instagram.com/laovejanegra_veganfood/?hl=es" class="btn-2">Conoce más de nosotros</a>
+        </div>
+    </section>
+
+    <section class="horario" id="horario">
+        <div class="horario-info container">
+
+            <h2>Contacto</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Direccion</h4>
+                    <p>Molinos de Raffo 450</p>
+                    <p>11900 Montevideo, Uruguay</p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>Lunes a viernes : 16 a 21 hrs </p>
+                    <p>Sabado y domingo : CERRADO </p>
+                </div>
+                <div class="txt">
+                    <h4>Contacto</h4>
+                    <p>Tel : 097 319 408</p>
+                    <p>Mail : laovejanegrauy@gmail.com </p>
+                </div>
+                <div class="txt">
+                    <h4>Redes Sociales</h4>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/laovejanegra_veganfood/?hl=es">
+                            <div class="social" >
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://wa.me/+59897319408">
+                            <div class="social" >
+                                <img src="images/s2.png" alt="" width="20">
+                            </div>
+                        </a>
+                        <a href="https://m.facebook.com/laovejanegraveganuy">
+                            <div class="social" >
+                                <img src="images/s1.svg" alt="" width="14">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26193.84143985764!2d-56.2245519123292!3d-34.85044320051431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a1d555b99f94fb%3A0x6f9c32a2beb0e01d!2sLa%20Oveja%20Negra%20VeganFood!5e0!3m2!1ses-419!2suy!4v1681327808619!5m2!1ses-419!2suy" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <footer class="footer container">
+        <img src="images/Logo.png" width="300" alt="">
+
+        <div class="links">
+            <h4>Productos</h4>
+            <ul>
+                <li><a href="#dulces">Dulce</a></li>
+                <li><a href="#salados">Salado</a></li>
+                <li><a href="#variedad">Variedad</a></li>
+                <li><a href="#tortas">Tortas & postres</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Menu</h4>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#horario">Horario</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Redes sociales</h4>
+            <div class="socials">
+                <a href="https://www.instagram.com/laovejanegra_veganfood/?hl=es">
+                    <div class="social" >
+                        <img src="images/s3.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://wa.me/+59897319408">
+                    <div class="social" >
+                        <img src="images/s2.png" alt="" width="20">
+                    </div>
+                </a>
+                <a href="https://m.facebook.com/laovejanegraveganuy">
+                    <div class="social" >
+                        <img src="images/s1.svg" alt="" width="14">
+                    </div>
+                </a>
+            </div>
+          
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
